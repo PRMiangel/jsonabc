@@ -7,7 +7,7 @@ Sorts JSON object alphabetically. It supports nested objects, arrays and collect
 
 ### Try it (Demo)
 
-[JSON ABC][]
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/PRMiangel/jsonabc/master/pwd-stack.yml)
 
 ### Supports
 
