@@ -9,31 +9,17 @@ Sorts JSON object alphabetically. It supports nested objects, arrays and collect
 
 [![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/PRMiangel/jsonabc/master/pwd-stack.yml)
 
-### Supports
-
-- Beautifies JSON
-- Sorts Plain Objects, Collections, Arrays
-- Has offline supports
-- IE9+ Support
-- Mobile/ Tablet friendly
-- Sorting plain arrays is optional
-
-### Download
- ```npm install jsonabc```
 ### Usage
 
- 1. Used directly in Node:
-    ```js
-    var myJsonAbc = require('jsonabc');
-    var sorted = myJsonAbc.sortObj({ c: 0, b: 1, a: 0 });
+ 1. Pull image:
+    ```bash
+    docker image pull prmiangel/jsonabc
     ```
- 2. Built by Browserify, for directly inclusion in the browser:
-    ```html
-    <script src="dist/jsonabc.js"></script>
-    <script>
-      var output = jsonabc.sort(inputStr, noarray);
-    </script>
+ 2. Run container:
+    ```bash
+    docker run -d -p 8080:80 prmiangel/jsonabc
     ```
+ 3. Navigate to http://localhost:8080 
 
 ### Example
 
